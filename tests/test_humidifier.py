@@ -1,7 +1,7 @@
 """Test for localtuya."""
 
 from . import *
-from custom_components.localtuya.humidifier import (
+from custom_components.localtuyax.humidifier import (
     LocalTuyaHumidifier,
     DOMAIN as PLATFORM_DOMAIN,
 )

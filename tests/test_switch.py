@@ -2,7 +2,7 @@
 
 from . import *
 from homeassistant.const import EntityCategory
-from custom_components.localtuya.switch import LocalTuyaSwitch, DOMAIN as SWITCH_DOMAIN
+from custom_components.localtuyax.switch import LocalTuyaSwitch, DOMAIN as SWITCH_DOMAIN
 
 CONFIG = {
     DEVICE_NAME: {

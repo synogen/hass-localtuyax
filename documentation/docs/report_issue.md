@@ -24,7 +24,7 @@ logger:
   default: warning
   logs:
     custom_components.localtuya: debug
-    custom_components.localtuya.pytuya: debug
+    custom_components.localtuyax.pytuya: debug
 ```
 
 ### Enable device debug.

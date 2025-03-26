@@ -1,7 +1,7 @@
 """Test for localtuya."""
 
 from . import *
-from custom_components.localtuya.siren import (
+from custom_components.localtuyax.siren import (
     LocalTuyaSiren,
     DOMAIN as PLATFORM_DOMAIN,
 )

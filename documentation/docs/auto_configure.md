@@ -1,5 +1,5 @@
 # Auto configure devices
-Localtuya can disocver you device entities if cloud is enable because the feature at the moment rely on `DP code` and [Devices Category](https://developer.tuya.com/en/docs/iot/standarddescription?id=K9i5ql6waswzq#title-6-List%20of%20category%20code){target="_blank"}.
+LocaltuyaX can disocver you device entities if cloud is enable because the feature at the moment rely on `DP code` and [Devices Category](https://developer.tuya.com/en/docs/iot/standarddescription?id=K9i5ql6waswzq#title-6-List%20of%20category%20code){target="_blank"}.
 
 By known the `category` we use that to get all the possible entities from stored data.<br> Data stored in `/localtuyax/core/ha_entities` (1)
 {.annotate}
@@ -14,7 +14,7 @@ By known the `category` we use that to get all the possible entities from stored
 !!! tip annotate "How to get the `Codes and DP`"
     You can download your device data in your `Home Assistant` by `Downloading Diagnostics`.
 
-    1. Download `device` diagnostics `localtuya` from device page. (1) `file -> device_cloud_info`
+    1. Download `device` diagnostics `localtuyax` from device page. (1) `file -> device_cloud_info`
     2. Or download `entry` diagnostics `note: It contains all devices data` (2) `file -> cloud_devices`
 
     Inside downloaded `txt file`, in `cloud_data object` look for your `device_id -> dps_data` (3)

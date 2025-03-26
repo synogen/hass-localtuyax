@@ -1,7 +1,7 @@
 """Test for localtuya."""
 
 from . import *
-from custom_components.localtuya.vacuum import (
+from custom_components.localtuyax.vacuum import (
     LocalTuyaVacuum,
     DOMAIN as PLATFORM_DOMAIN,
     VacuumActivity,

@@ -49,7 +49,7 @@ Go to hub `Configure` (1) a menu will show up (2) Choose `Add new device`
         logger:
           logs:
             custom_components.localtuya: debug
-            custom_components.localtuya.pytuya: debug
+            custom_components.localtuyax.pytuya: debug
         ```
 
     ??? info "(optional) Scan Interval"

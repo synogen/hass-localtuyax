@@ -1,7 +1,7 @@
 """Test for localtuya."""
 
 from . import *
-from custom_components.localtuya.climate import (
+from custom_components.localtuyax.climate import (
     LocalTuyaClimate,
     HVACAction,
     HVACMode,
