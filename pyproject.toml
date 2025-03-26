@@ -1,6 +1,6 @@
 [tool.black]
 target-version = ["py312"]
-include = 'custom_components/localtuya/.*\.py'
+include = 'custom_components/localtuyax/.*\.py'
 
 [tool.codespell]
 skip = '*.pyc,*.pyi,*~,*.json'

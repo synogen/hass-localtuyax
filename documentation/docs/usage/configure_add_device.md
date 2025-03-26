@@ -134,7 +134,7 @@ Each platform has its unique configuration page with different sets of configura
 !!! info "Templates"
     You can import a ready-to-go device configuration through the 'add device' process. This feature is useful for creating backups, sharing configurations, 
     or setting up similar devices. All templates stored in the 'templates' directory will be listed in the 'Use saved template' step.<br>
-    _Templates directory located in `custom_components/localtuya/templates`_
+    _Templates directory located in `custom_components/localtuyax/templates`_
 
 
 ##### Create templates

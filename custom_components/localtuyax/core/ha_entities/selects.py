@@ -843,7 +843,7 @@ SELECTS: dict[str, tuple[LocalTuyaEntity, ...]] = {
             name="Countdown",
             custom_configs=localtuya_selector(COUNT_DOWN_HOURS),
         ),
-        # Gratkit dryer v2 https://github.com/xZetsubou/hass-localtuya/issues/501
+        # Gratkit dryer v2 https://github.com/synogen/hass-localtuyax/issues/501
         LocalTuyaEntity(
             id=DPCode.LEDLIGHT,
             entity_category=EntityCategory.CONFIG,

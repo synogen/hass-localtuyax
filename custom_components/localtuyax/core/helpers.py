@@ -62,12 +62,12 @@ class templates:
                 ent[CONF_PLATFORM] = plat
             entities.append(ent)
         if not entities:
-            raise ValueError("No entities found the can be used for localtuya")
+            raise ValueError("No entities found the can be used for localtuyax")
         return entities
 
     @classmethod
     def export_config(cls, config: dict, config_name: str):
-        """Create a yaml config file for localtuya."""
+        """Create a yaml config file for localtuyax."""
         export_config = []
         for cfg in config[CONF_ENTITIES]:
             # Special case device_classes

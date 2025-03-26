@@ -39,7 +39,7 @@ async def init(config: dict[str, dict[str, Any]], entity_domain, entity_class):
     entry = ConfigEntry(**create_entry(config))
     tuya_api = TuyaCloudApi("EU", "test_client_id", "test_secret", "test_user_id")
 
-    hass.data.setdefault("localtuya", {entry.entry_id: {}})
+    hass.data.setdefault("localtuyax", {entry.entry_id: {}})
 
     dump_device = coordinator.TuyaDevice(hass, entry, config[DEVICE_NAME])
     dump_device.status_updated = lambda x: [
@@ -74,7 +74,7 @@ def create_entry(config: dict[str, dict[str, Any]]):
         "options": {},
         "pref_disable_new_entities": None,
         "pref_disable_polling": None,
-        "title": "Mock LocalTuya",
+        "title": "Mock LocalTuyaX",
         "unique_id": None,
         "version": 1,
         "source": "user",

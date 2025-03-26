@@ -33,11 +33,11 @@
 # --- Export the device config then submit]
 
 # Templates DIR:
-#   the configs will be exported in [custom_components/localtuya/templates]
+#   the configs will be exported in [custom_components/localtuyax/templates]
 
 # How to import:
 # -- When u add new device when the form [ Pick Entity type selection ]
 # --- Import template Form will show up showing available templates in templates folder.
 
-# -- templates in [custom_components/localtuya/templates]
+# -- templates in [custom_components/localtuyax/templates]
 # -- Templates files will load up with HA so adding files will require restarting HA to show up.
